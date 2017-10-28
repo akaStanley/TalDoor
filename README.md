@@ -22,3 +22,33 @@ TalDoor (or GatekeeperV2) is a small POE door lock system that runs off the Pock
 	- ssh into the BeagleBone (ssh 192.168.7.2)
 	- Run command "route add default gw 192.168.7.1"
 	- Edit /etc/resolv.conf and add the Google name server by adding the line "nameserver 8.8.8.8"
+	
+- Door locks are 5v motors that need ~70mA to turn a worm gear and "unlock" the turnkey.
+- BeagleBoard uses 130mA constatn and up to 300mA peak
+- 2 Red 0603 LEDs use 40mA
+- 2 Green 0603 LEDs use 40mA
+	- Peak current is 410mA
+
+### Pn532 --> beagleBoard pinout
+- GND->GND
+- VCC->SYS_5V
+- SDA->I2C2_SDA
+- SCL->I2C2_SCL
+
+
+### Ethernet dataflow:
+1. SI-52003-F POE RJ45 jack
+2. AG9050S POE breakout DC-DC
+2.5 ENC28j60 ethernet to SPI uC
+3. PocketBeagle SPI bus
+
+### On the outside of the door board
+- PN532 NFC reader
+- Red LEDs
+- Green LEDs
+- Beeper
+
+### On the inside of the room
+- BeagleBoard
+- POE ethernet jack and breadout power
+- H-Bridge (transistors?) for motor control 5v
