@@ -46,9 +46,9 @@ TalDoor (or GatekeeperV2) is a small POE door lock system that runs off the Pock
 
 ### On the outside of the door board
 - PN532 NFC reader
-- [ed LEDs](https://www.digikey.com/product-detail/en/broadcom-limited/ASMT-RR45-AQ902/516-2005-1-ND/1990536)
+- [Red LEDs](https://www.digikey.com/product-detail/en/broadcom-limited/ASMT-RR45-AQ902/516-2005-1-ND/1990536)
 - [Green LEDs](https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VLMTG1300-GS08/VLMTG1300-GS08CT-ND/2813368)
-- Beeper
+- [Beeper](https://www.digikey.com/product-detail/en/soberton-inc/WT-1205/433-1028-ND/479674)
 
 ### On the inside of the room
 - BeagleBoard
