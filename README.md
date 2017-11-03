@@ -41,9 +41,9 @@ TalDoor (or GatekeeperV2) is a small POE door lock system that runs off the Pock
 ### Ethernet dataflow:
 1. SI-52003-F POE RJ45 jack  (380-1119-ND) ((Testing with the SunFounder ENC28J60))
 2. AG9050S POE breakout DC-DC (9000s is parent part #, 9050 is 5v output version)
-2.4 AG9705-FL is recommended as a replacement as the 9050 is End Of Life
-2.5 ENC28j60 ethernet to SPI uC
-3. PocketBeagle SPI bus
+  - AG9705-FL is recommended as a replacement as the 9050 is End Of Life
+3. ENC28j60 ethernet to SPI uC
+4. PocketBeagle SPI bus
 
 ### On the outside of the door board
 - PN532 NFC reader
