@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Ag9700
+D 48v POE stepdown transformer and voltage supply. Requires decoupling cap min 470uF  or 1000uF for high loads
+K poe, stepdown, transformer, ethernet
+F ${KIPRJMOD}/Datasheets/2_ag9700-POE supply.pdf
+$ENDCMP
+#
+$CMP SI-52003-F_RJ45
+D SI-52003-F is an through hole RJ45 with transformer + leds nad transformers
+K RJ45, ethernet
+F ${KIPRJMOD}/Datasheets/1_SI-52003-F_Ethernet_jack_withPOE.pdf
+$ENDCMP
+#
+#End Doc Library

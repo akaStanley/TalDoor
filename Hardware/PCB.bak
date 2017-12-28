@@ -1,0 +1,84 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:TalDoor_Parts
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "TalDoor Schematic"
+Date "2017-12-28"
+Rev "1"
+Comp "Spencer Kulbacki - Computer Science House"
+Comment1 "NFC Doorlock hardware with POE support for the Pocket Beagle Devboard"
+Comment2 ""
+Comment3 ""
+Comment4 "GitHub URL: "
+$EndDescr
+Text Notes 7650 6850 0    197  ~ 39
+ADD URL OF CSH REPO
+$Comp
+L ENC28J60-C/SS U?
+U 1 1 5A4570B0
+P 4200 2250
+F 0 "U?" H 3650 3200 50  0000 L CNN
+F 1 "ENC28J60-C/SS" H 4400 3200 50  0000 L CNN
+F 2 "SSOP-28" H 4200 2250 50  0001 C CIN
+F 3 "${KIPRJMOD}/Datasheets/3_ENC28J60-H_Ethernet_uC.pdf" H 4200 2250 50  0001 C CNN
+	1    4200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L RJ45-TRANSFO J?
+U 1 1 5A45712F
+P 1950 1900
+F 0 "J?" H 2050 2500 50  0000 L CNN
+F 1 "RJ45-TRANSFO" H 1900 2500 50  0000 R CNN
+F 2 "" H 1950 1900 50  0001 C CNN
+F 3 "${KIPRJMOD}/Datasheets/1_SI-52003-F_Ethernet_jack_withPOE.pdf" H 1950 1900 50  0001 C CNN
+	1    1950 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Ag9700 U?
+U 1 1 5A457CBC
+P 2350 3350
+F 0 "U?" H 3250 3550 60  0000 C CNN
+F 1 "Ag9700" H 1900 3550 60  0000 C CNN
+F 2 "" H 2350 3350 60  0001 C CNN
+F 3 "${KIPRJMOD}/Datasheets/2_ag9700-POE supply.pdf" H 2350 3350 60  0001 C CNN
+	1    2350 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
