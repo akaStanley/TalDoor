@@ -1,4 +1,4 @@
-update=12/28/2017 6:14:32 PM
+update=12/29/2017 2:25:20 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -72,3 +70,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=TalDoor_Parts
+[general]
+version=1

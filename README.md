@@ -44,12 +44,15 @@ TalDoor (or GatekeeperV2) is a small POE door lock system that runs off the Pock
   - AG9705-FL is recommended as a replacement as the 9050 is End Of Life
 3. ENC28j60 ethernet to SPI uC
 4. PocketBeagle SPI bus
+5. LEDs and Buzzer
+	See PRU section about itregrated uC seperate from ARM chip: http://www.righto.com/2017/12/hands-on-with-pocketbeagle-tiny-25.html
+	
 
 ### On the outside of the door board
 - PN532 NFC reader
 - [Red LEDs](https://www.digikey.com/product-detail/en/broadcom-limited/ASMT-RR45-AQ902/516-2005-1-ND/1990536)
 - [Green LEDs](https://www.digikey.com/product-detail/en/vishay-semiconductor-opto-division/VLMTG1300-GS08/VLMTG1300-GS08CT-ND/2813368)
-- [Beeper](https://www.digikey.com/product-detail/en/soberton-inc/WT-1205/433-1028-ND/479674)
+- [Beeper](https://www.digikey.com/product-detail/en/pui-audio-inc/AI-1223-TWT-3V-2-R/668-1456-ND/5011391)
 
 ### On the inside of the room
 - BeagleBoard
