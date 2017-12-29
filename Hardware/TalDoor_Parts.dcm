@@ -6,6 +6,12 @@ K poe, stepdown, transformer, ethernet
 F ${KIPRJMOD}/Datasheets/2_ag9700-POE supply.pdf
 $ENDCMP
 #
+$CMP PN532
+D Pn532 NFC reader over I2C
+K PN532,nfc, i2c
+F /Datasheets/5_PN532_Manual_V3-1.pdf
+$ENDCMP
+#
 $CMP SI-52003-F_RJ45
 D SI-52003-F is an through hole RJ45 with transformer + leds nad transformers
 K RJ45, ethernet
