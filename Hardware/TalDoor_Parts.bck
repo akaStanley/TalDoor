@@ -6,6 +6,12 @@ K poe, stepdown, transformer, ethernet
 F ${KIPRJMOD}/Datasheets/2_ag9700-POE supply.pdf
 $ENDCMP
 #
+$CMP DRV8837
+D IC MOTOR DRIVER, 2 Half bridges
+K h bridge, motor, driver
+F ../Datasheets/drv8837.pdf
+$ENDCMP
+#
 $CMP PN532
 D Pn532 NFC reader over I2C
 K PN532,nfc, i2c

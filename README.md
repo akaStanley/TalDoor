@@ -57,4 +57,4 @@ TalDoor (or GatekeeperV2) is a small POE door lock system that runs off the Pock
 ### On the inside of the room
 - BeagleBoard
 - POE ethernet jack and breadout power
-- H-Bridge (transistors?) for motor control 5v
+- H-Bridge (transistors?) for motor control 5v [H-Bridge](https://www.digikey.com/product-detail/en/texas-instruments/DRV8837DSGR/296-34806-1-ND/3518833)
