@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:/Users/Spencer/Google Drive/Kuro/1 Documents/2 Projects/TalDoor/Hardware/PCB.sch")
-    (date "12/31/2017 2:17:01 AM")
+    (source "C:/Users/Spencer/Google Drive/Kuro/1 Documents/2 Projects/TalDoor/Hardware/TalDoor.sch")
+    (date "1/2/2018 12:12:16 AM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -9,7 +9,7 @@
         (company "Spencer Kulbacki - Computer Science House")
         (rev 1)
         (date 2017-12-28)
-        (source PCB.sch)
+        (source TalDoor.sch)
         (comment (number 1) (value "NFC Doorlock hardware with POE support for the Pocket Beagle Devboard"))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -532,14 +532,14 @@
         (pin (num Y+) (name LEDY+) (type passive))
         (pin (num Y-) (name LEDY-) (type passive)))))
   (libraries
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical microchip)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\microchip.lib"))
     (library (logical TalDoor_Parts)
-      (uri "C:\\Users\\Spencer\\Google Drive\\Kuro\\1 Documents\\2 Projects\\TalDoor\\Hardware\\TalDoor_Parts.lib"))
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
+      (uri "C:\\Users\\Spencer\\Google Drive\\Kuro\\1 Documents\\2 Projects\\TalDoor\\Hardware\\TalDoor_Parts.lib")))
   (nets
     (net (code 1) (name /SCL)
       (node (ref P1) (pin 28))

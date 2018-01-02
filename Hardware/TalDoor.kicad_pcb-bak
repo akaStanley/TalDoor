@@ -2540,11 +2540,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model pn532.wrl
-      (at (xyz -1.1 -0.14 0.225))
-      (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module TalDoor_Footprints:Ag9700_FP (layer F.Cu) (tedit 5A48898E) (tstamp 5A4B1C81)
