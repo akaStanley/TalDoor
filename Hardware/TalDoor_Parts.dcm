@@ -18,6 +18,11 @@ K PN532,nfc, i2c
 F /Datasheets/5_PN532_Manual_V3-1.pdf
 $ENDCMP
 #
+$CMP RK7002BM
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP SI-52003-F_RJ45
 D SI-52003-F is an through hole RJ45 with transformer + leds nad transformers
 K RJ45, ethernet

@@ -1,9 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Ag9700
+$CMP AG9700
 D 48v POE stepdown transformer and voltage supply. Requires decoupling cap min 470uF  or 1000uF for high loads
-K poe, stepdown, transformer, ethernet
-F ${KIPRJMOD}/Datasheets/2_ag9700-POE supply.pdf
+K POE, Stepdown
+F ../Datasheets/2_ag9700-POE supply.pdf
 $ENDCMP
 #
 $CMP DRV8837

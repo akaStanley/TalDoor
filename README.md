@@ -1,6 +1,5 @@
-# TalDoor 
-CSH Fall Hackathon 2017
-OCtober 27th-28th
+# TalDoor  
+CSH 2017-18  
 
 TalDoor (or GatekeeperV2) is a small POE door lock system that runs off the PocketBeagle and uses PN532 NFC module to scan and authenticate user ID cards and open the door.
 
