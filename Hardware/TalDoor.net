@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\Spencer\\Google Drive\\Kuro\\1 Documents\\2 Projects\\TalDoor\\Hardware\\TalDoor.sch")
-    (date "1/3/2018 1:03:12 AM")
+    (source "C:/Users/Spencer/Google Drive/Kuro/1 Documents/2 Projects/TalDoor/Hardware/TalDoor.sch")
+    (date "1/3/2018 10:23:36 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -16,8 +16,8 @@
         (comment (number 4) (value "GitHub URL: ")))))
   (components
     (comp (ref U2)
-      (value ENC28J60-C/SS)
-      (footprint Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm)
+      (value " ENC28J60-I/SO")
+      (footprint Housings_SOIC:SOIC-28W_7.5x17.9mm_Pitch1.27mm)
       (datasheet ${KIPRJMOD}/Datasheets/3_ENC28J60-H_Ethernet_uC.pdf)
       (libsource (lib microchip) (part ENC28J60-C/SS))
       (sheetpath (names /) (tstamps /))
@@ -625,12 +625,12 @@
         (pin (num 1) (name Pin_1) (type passive))
         (pin (num 2) (name Pin_2) (type passive)))))
   (libraries
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical microchip)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\microchip.lib"))
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical TalDoor_Parts)
       (uri "C:\\Users\\Spencer\\Google Drive\\Kuro\\1 Documents\\2 Projects\\TalDoor\\Hardware\\TalDoor_Parts.lib")))
   (nets
