@@ -6,6 +6,11 @@ K POE, Stepdown
 F ../Datasheets/2_ag9700-POE supply.pdf
 $ENDCMP
 #
+$CMP BSS223PWH6327XTSA1
+D P-MOSFET with substrate diode BSS223PWH6327XTSA1
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP DRV8837
 D IC MOTOR DRIVER, 2 Half bridges
 K h bridge, motor, driver
@@ -21,6 +26,11 @@ $ENDCMP
 $CMP RK7002BM
 D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP RZM001P02T2L
+D P-MOSFET with substrate diode RZM001P02T2L
+K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
 $CMP SI-52003-F_RJ45
