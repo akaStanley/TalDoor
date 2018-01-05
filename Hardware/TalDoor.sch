@@ -567,12 +567,8 @@ Text Label 6950 3200 0    50   ~ 0
 PRU0_1
 Text Label 6950 3100 0    50   ~ 0
 PRU0_4
-Text Notes 6500 3400 0    50   ~ 0
-25mA max out
-Text Notes 6500 3500 0    50   ~ 0
-3.3v IO
-Text Notes 6500 3600 0    50   ~ 0
-2v led, use 68ohm\n
+Text Notes 6600 3700 0    50   ~ 0
+PocketBeagle IO:\n25mA max out\n3.3v
 Text Notes 6900 3300 2    50   ~ 0
 BUZZER
 Text Notes 6900 3100 2    50   ~ 0
@@ -892,8 +888,8 @@ Text Label 7900 3300 0    50   ~ 0
 PRU0_0
 Text Label 2750 7350 0    50   ~ 0
 PRU0_4
-Text Notes 7950 3450 0    50   ~ 0
-Low = Red\nHigh = Green
+Text Notes 8200 3450 0    50   ~ 0
+Low=Red\nHigh=Green
 $Comp
 L RK7002BM Q1
 U 1 1 5A4D88E6

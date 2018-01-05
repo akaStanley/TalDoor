@@ -2,10 +2,7 @@
 CSH 2017-18  
 
 ## TO DO:
-- Find P channel Mosfet for RED led circuit
-- rewire LED schematic like Sim (with one LED IO pin on PB)
-- Add speaker output to IO header cable
-- layout PCBs
+- layout Main PCB
 
 TalDoor (or GatekeeperV2) is a small POE door lock system that runs off the PocketBeagle and uses PN532 NFC module to scan and authenticate user ID cards and open the door.
 
