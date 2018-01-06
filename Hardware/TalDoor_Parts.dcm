@@ -23,6 +23,11 @@ K PN532,nfc, i2c
 F /Datasheets/5_PN532_Manual_V3-1.pdf
 $ENDCMP
 #
+$CMP PocketBeagle
+D PocketBeagle
+K Pocket Beagle
+$ENDCMP
+#
 $CMP RK7002BM
 D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor

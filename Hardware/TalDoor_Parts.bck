@@ -6,6 +6,11 @@ K POE, Stepdown
 F ../Datasheets/2_ag9700-POE supply.pdf
 $ENDCMP
 #
+$CMP BSS223PWH6327XTSA1
+D P-MOSFET with substrate diode BSS223PWH6327XTSA1
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP DRV8837
 D IC MOTOR DRIVER, 2 Half bridges
 K h bridge, motor, driver
@@ -16,6 +21,11 @@ $CMP PN532
 D Pn532 NFC reader over I2C
 K PN532,nfc, i2c
 F /Datasheets/5_PN532_Manual_V3-1.pdf
+$ENDCMP
+#
+$CMP PocketBeagle
+D PocketBeagle
+K Pocket Beagle
 $ENDCMP
 #
 $CMP RK7002BM
