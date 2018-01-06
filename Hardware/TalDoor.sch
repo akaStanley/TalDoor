@@ -39,13 +39,13 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TalDoor Schematic"
-Date "2017-12-28"
+Date "2018-01-06"
 Rev "1"
 Comp "Spencer Kulbacki - Computer Science House"
 Comment1 "NFC Door lock hardware with POE support for the Pocket Beagle Devboard"
 Comment2 ""
 Comment3 ""
-Comment4 "GitHub URL: "
+Comment4 "GitHub URL: https://github.com/akaStanley/TalDoor"
 $EndDescr
 Text Notes 6350 7150 0    197  ~ 39
 ADD URL OF CSH REPO
