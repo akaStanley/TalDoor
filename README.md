@@ -11,10 +11,10 @@ TalDoor (or GatekeeperV2) is a small POE door lock system that runs off the Pock
 - Pn532 NFC Module
 
 
-![Version 1 of the Main Board PCB.](https://github.com/akaStanley/TalDoor/tree/master/Board Photos/MainBoard1.PNG)  
-![Version 1 of the NFC Reader PCB.](https://github.com/akaStanley/TalDoor/tree/master/Board Photos/External_Reader1B.PNG)  
+![Version 1 of the Main Board PCB.](https://github.com/akaStanley/TalDoor/blob/master/Board%20Photos/MainBoard1.PNG)  
+![Version 1 of the NFC Reader PCB.](https://github.com/akaStanley/TalDoor/blob/master/Board%20Photos/External_Reader1B.PNG)  
 
-![Version 1 of the PCB.](https://github.com/akaStanley/TalDoor/tree/master/Board Photos/FAB_BothBoards_v1.PNG)  
+![Version 1 of the PCB.](https://github.com/akaStanley/TalDoor/blob/master/Board%20Photos/FAB_BothBoards_v1.PNG)  
 
 ## Software:
 - LibNFC 1.7.1
