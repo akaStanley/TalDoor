@@ -1,0 +1,12 @@
+++fix  schematic issues:
+Pn532 moved on daughter board
+move m2 screw hole to lign up with holes in housing (one is about 1/2 diamter off)~1mm
+
+============Done:=============1/28/18me
+Power PB with 5v from AG9705 to P1 pin 1
+Redesign power supply for board so that Motor controler and PB are on 5v from AG9705 and the rest (500mA) are on 3.3v regulator
+
+Pinout for jst connectors is flipped on one end, so change pinout on one pcb
+Flip MISO and MOSI coming from Pocket beagle
+Drain and source get flipped on q2 (see paper) [Drain to Red LED, Source to 3.3v]
+

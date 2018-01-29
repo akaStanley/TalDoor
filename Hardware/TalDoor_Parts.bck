@@ -11,6 +11,12 @@ D P-MOSFET with substrate diode BSS223PWH6327XTSA1
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
+$CMP CAT3200-5
+D Charge Pump Switching Regulator IC Positive Fixed 5V 1 Output 100mA SOT-23-6
+K Voltage Regulator 100mA Positive
+F http://www.onsemi.com/pub/Collateral/CAT3200-D.PDF
+$ENDCMP
+#
 $CMP DRV8837
 D IC MOTOR DRIVER, 2 Half bridges
 K h bridge, motor, driver
@@ -31,11 +37,6 @@ $ENDCMP
 $CMP RK7002BM
 D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
-$ENDCMP
-#
-$CMP RZM001P02T2L
-D P-MOSFET with substrate diode RZM001P02T2L
-K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
 $CMP SI-52003-F_RJ45
