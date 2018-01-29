@@ -1,6 +1,7 @@
-++fix  schematic issues:
+++fix  schematic issues
 Pn532 moved on daughter board
 move m2 screw hole to lign up with holes in housing (one is about 1/2 diamter off)~1mm
+Update BOM
 
 ============Done:=============1/28/18me
 Power PB with 5v from AG9705 to P1 pin 1
