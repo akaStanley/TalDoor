@@ -651,7 +651,7 @@ U 1 1 5A488C2D
 P 1600 7350
 F 0 "U1" H 2050 7900 50  0000 C CNN
 F 1 "DRV8837" H 1750 7900 50  0000 C CNN
-F 2 "Housings_SON:WSON-8_1EP_2x2mm_Pitch0.5mm_ThermalVias" H 1600 7400 118 0001 C CNN
+F 2 "TalDoor_Footprints:WSON-8_1EP_2x2mm_Pitch0.5mm_ThermalVias" H 1600 7400 118 0001 C CNN
 F 3 "" H 1600 7400 118 0001 C CNN
 	1    1600 7350
 	1    0    0    -1  
@@ -979,9 +979,6 @@ F 3 "" H 7750 1150 50  0001 C CNN
 	1    7750 1150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9950 1800
-NoConn ~ 9350 1900
-NoConn ~ 9350 2200
 $Comp
 L PocketBeagle P1
 U 1 1 5A508D71
@@ -993,9 +990,6 @@ F 3 "" H 9450 2000 50  0001 C CNN
 	1    8900 2000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8500 1900
-NoConn ~ 8500 2000
-NoConn ~ 8500 2200
 $Comp
 L +5V #PWR014
 U 1 1 5A6EA312

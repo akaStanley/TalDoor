@@ -32,7 +32,7 @@ F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 50 150 39 0 0 0 D Normal 0 C C
-T 0 -100 50 39 0 0 0 G Normal 0 C C
+T 0 -100 -50 39 0 0 0 G Normal 0 C C
 T 0 50 -150 39 0 0 0 S Normal 0 C C
 C 65 0 111 0 1 10 N
 C 100 -70 11 0 1 0 F
