@@ -135,7 +135,7 @@ L CP1 C15
 U 1 1 5A45D690
 P 5900 1750
 F 0 "C15" H 5925 1850 50  0000 L CNN
-F 1 "1000uF" H 5925 1650 50  0000 L CNN
+F 1 "470uF" H 5925 1650 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 5900 1750 50  0001 C CNN
 F 3 "" H 5900 1750 50  0001 C CNN
 	1    5900 1750
@@ -481,28 +481,28 @@ SCL
 $Comp
 L GND #PWR06
 U 1 1 5A47602A
-P 7750 2150
-F 0 "#PWR06" H 7750 1900 50  0001 C CNN
-F 1 "GND" H 7750 2000 50  0000 C CNN
-F 2 "" H 7750 2150 50  0001 C CNN
-F 3 "" H 7750 2150 50  0001 C CNN
-	1    7750 2150
+P 7750 1950
+F 0 "#PWR06" H 7750 1700 50  0001 C CNN
+F 1 "GND" H 7750 1800 50  0000 C CNN
+F 2 "" H 7750 1950 50  0001 C CNN
+F 3 "" H 7750 1950 50  0001 C CNN
+	1    7750 1950
 	1    0    0    -1  
 $EndComp
-Text Label 7550 2900 0    50   ~ 0
+Text Label 8600 2900 0    50   ~ 0
 PRU1_10
-Text Label 7550 2800 0    50   ~ 0
+Text Label 8600 1300 0    50   ~ 0
 PRU0_1
-Text Label 7550 2700 0    50   ~ 0
+Text Label 8600 1200 0    50   ~ 0
 PRU0_4
 Text Notes 7700 3250 0    50   ~ 0
 PocketBeagle IO:\n25mA max out\n3.3v
-Text Notes 7500 2900 2    50   ~ 0
+Text Notes 8950 2900 0    50   ~ 0
 BUZZER
-Text Notes 7500 2700 2    50   ~ 0
-Door Motor Fwrd
-Text Notes 7500 2800 2    50   ~ 0
-Door Motor Rev
+Text Notes 8900 1200 0    50   ~ 0
+Motor Fwrd
+Text Notes 8900 1300 0    50   ~ 0
+Motor Rev
 $Comp
 L LED D2
 U 1 1 5A482297
@@ -727,13 +727,13 @@ F 3 "" H 4150 1450 118 0001 C CNN
 	1    4150 1300
 	1    0    0    1   
 $EndComp
-Text Notes 8900 2900 0    50   ~ 0
+Text Notes 8950 2800 0    50   ~ 0
 LED DRIVE
-Text Label 8600 2900 0    50   ~ 0
+Text Label 8600 2800 0    50   ~ 0
 PRU0_0
 Text Label 2500 7100 0    50   ~ 0
 PRU0_4
-Text Notes 8900 3050 0    50   ~ 0
+Text Notes 8950 2700 0    50   ~ 0
 Low=Red\nHigh=Green
 $Comp
 L RK7002BM Q1
@@ -822,8 +822,6 @@ Text Notes 6150 5250 0    59   ~ 0
 Fem<-->Fem\n    cable
 Text Label 6400 4600 1    50   ~ 0
 PRU1_10
-Text Notes 7550 2600 0    50   ~ 0
-PR0_7
 $Comp
 L LED D4
 U 1 1 5A4FE1D1
@@ -899,7 +897,6 @@ NoConn ~ 9350 2900
 NoConn ~ 9950 2900
 NoConn ~ 9350 1200
 NoConn ~ 9950 1200
-NoConn ~ 8500 1200
 $Bitmap
 Pos 10200 7050
 Scale 1.000000
@@ -1073,11 +1070,6 @@ Wire Wire Line
 	1350 6250 1350 6900
 Wire Wire Line
 	1350 6900 1400 6900
-Connection ~ 7750 2000
-Wire Wire Line
-	7900 2000 7750 2000
-Wire Wire Line
-	7750 1900 7750 2150
 Wire Wire Line
 	7750 1200 7750 1150
 Wire Wire Line
@@ -1342,12 +1334,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 5850 9300 5850
 Wire Wire Line
-	7900 2700 7550 2700
-Wire Wire Line
-	7900 2800 7550 2800
-Wire Wire Line
-	7900 2900 7550 2900
-Wire Wire Line
 	7900 1900 7750 1900
 Wire Wire Line
 	2400 3750 2250 3750
@@ -1355,8 +1341,6 @@ Wire Wire Line
 	2400 3650 2250 3650
 Wire Wire Line
 	2400 3550 2250 3550
-Wire Wire Line
-	8500 1700 8600 1700
 Wire Wire Line
 	8500 1600 8600 1600
 Wire Wire Line
@@ -1664,4 +1648,29 @@ Text Notes 5450 2600 0    118  ~ 24
 3.3v Supply
 Text Notes 5250 3200 0    39   ~ 0
 Place close \nto C12&13
+Wire Wire Line
+	8500 2800 8600 2800
+Wire Wire Line
+	8500 1200 8600 1200
+Wire Wire Line
+	8500 1300 8600 1300
+Wire Wire Line
+	7750 1900 7750 1950
+$Comp
+L GND #PWR019
+U 1 1 5A8162E6
+P 9100 1950
+F 0 "#PWR019" H 9100 1700 50  0001 C CNN
+F 1 "GND" H 9100 1800 50  0000 C CNN
+F 2 "" H 9100 1950 50  0001 C CNN
+F 3 "" H 9100 1950 50  0001 C CNN
+	1    9100 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1900 9100 1950
+Wire Wire Line
+	8500 1900 9100 1900
+Wire Wire Line
+	8500 1700 8600 1700
 $EndSCHEMATC

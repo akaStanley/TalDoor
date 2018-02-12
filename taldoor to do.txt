@@ -1,6 +1,5 @@
 ++fix  schematic issues
-Pn532 moved on daughter board
-move m2 screw hole to lign up with holes in housing (one is about 1/2 diamter off)~1mm
+
 Update BOM
 
 ============Done:=============1/28/18me
@@ -10,4 +9,6 @@ Redesign power supply for board so that Motor controler and PB are on 5v from AG
 Pinout for jst connectors is flipped on one end, so change pinout on one pcb
 Flip MISO and MOSI coming from Pocket beagle
 Drain and source get flipped on q2 (see paper) [Drain to Red LED, Source to 3.3v]
-
+2/11
+Pn532 moved on daughter board
+move m2 screw hole to lign up with holes in housing (one is about 1/2 diamter off)~1mm
