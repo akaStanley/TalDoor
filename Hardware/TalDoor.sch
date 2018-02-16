@@ -454,13 +454,13 @@ SPI0
 Text Label 2250 3750 0    50   ~ 0
 CLK
 Text Label 8600 1500 0    50   ~ 0
-CLK
+CLK1
 Text Label 8600 1400 0    50   ~ 0
-CS
+CS1
 Text Label 8600 1600 0    50   ~ 0
-MISO
+MISO1
 Text Label 8600 1700 0    50   ~ 0
-MOSI
+MOSI1
 Text Notes 8900 1600 0    50   ~ 0
 MISO
 Text Notes 8900 1700 0    50   ~ 0
@@ -475,9 +475,9 @@ MISO
 Text Label 2250 3550 0    50   ~ 0
 MOSI
 Text Label 8600 2400 0    50   ~ 0
-SDA
+SDA2
 Text Label 8600 2500 0    50   ~ 0
-SCL
+SCL2
 $Comp
 L GND #PWR06
 U 1 1 5A47602A
@@ -495,7 +495,7 @@ Text Label 8600 1200 0    50   ~ 0
 PRU0_1
 Text Label 8600 1300 0    50   ~ 0
 PRU0_4
-Text Notes 7700 3250 0    50   ~ 0
+Text Notes 8600 3250 0    50   ~ 0
 PocketBeagle IO:\n25mA max out\n3.3v
 Text Notes 8950 2900 0    50   ~ 0
 BUZZER
@@ -733,7 +733,7 @@ Text Label 8600 2800 0    50   ~ 0
 PRU0_0
 Text Label 2500 7100 0    50   ~ 0
 PRU0_4
-Text Notes 8950 2700 0    50   ~ 0
+Text Notes 8300 2700 0    50   ~ 0
 Low=Red\nHigh=Green
 $Comp
 L RK7002BM Q1
@@ -982,7 +982,7 @@ U 1 1 5A508D71
 P 8900 2000
 F 0 "P1" H 8900 2850 50  0000 C CNN
 F 1 "PocketBeagle" H 8900 2950 50  0000 C CNN
-F 2 "TalDoor_Footprints:PocketBeagle_TalDoor" H 8900 1000 50  0001 C CNN
+F 2 "TalDoor_Footprints:PocketBeagle_DEV_TalDoor" H 8900 1000 50  0001 C CNN
 F 3 "" H 9450 2000 50  0001 C CNN
 	1    8900 2000
 	1    0    0    -1  
@@ -1659,18 +1659,146 @@ Wire Wire Line
 $Comp
 L GND #PWR019
 U 1 1 5A8162E6
-P 9100 1950
-F 0 "#PWR019" H 9100 1700 50  0001 C CNN
-F 1 "GND" H 9100 1800 50  0000 C CNN
-F 2 "" H 9100 1950 50  0001 C CNN
-F 3 "" H 9100 1950 50  0001 C CNN
-	1    9100 1950
+P 8550 1950
+F 0 "#PWR019" H 8550 1700 50  0001 C CNN
+F 1 "GND" H 8550 1800 50  0000 C CNN
+F 2 "" H 8550 1950 50  0001 C CNN
+F 3 "" H 8550 1950 50  0001 C CNN
+	1    8550 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 1900 9100 1950
-Wire Wire Line
-	8500 1900 9100 1900
-Wire Wire Line
 	8500 1700 8600 1700
+$Comp
+L Jumper_NC_Dual JP2
+U 1 1 5A819C75
+P 7400 2950
+F 0 "JP2" H 7450 2850 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 7400 3050 50  0000 C BNN
+F 2 "Connectors:GS3" H 7400 2950 50  0001 C CNN
+F 3 "" H 7400 2950 50  0001 C CNN
+	1    7400 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 10350 2650 1    79   ~ 0
+DEV\nSet to non Dev footprint\nand remove jumpers\n
+Wire Wire Line
+	8500 1900 8550 1900
+Wire Wire Line
+	8550 1900 8550 1950
+Wire Wire Line
+	9350 2700 9300 2700
+Wire Wire Line
+	9350 2600 9300 2600
+Wire Wire Line
+	9350 2500 9300 2500
+Wire Wire Line
+	9350 2400 9300 2400
+Wire Wire Line
+	9300 1600 9350 1600
+Wire Wire Line
+	9350 1700 9300 1700
+Text Label 9300 1700 2    46   ~ 0
+SDA1
+Text Label 9300 1600 2    46   ~ 0
+SCL1
+$Comp
+L Jumper_NC_Dual JP1
+U 1 1 5A867D5F
+P 7400 2500
+F 0 "JP1" H 7450 2400 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 7400 2600 50  0000 C BNN
+F 2 "Connectors:GS3" H 7400 2500 50  0001 C CNN
+F 3 "" H 7400 2500 50  0001 C CNN
+	1    7400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Dual JP4
+U 1 1 5A867E50
+P 8450 3600
+F 0 "JP4" H 8500 3500 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 8450 3700 50  0000 C BNN
+F 2 "Connectors:GS3" H 8450 3600 50  0001 C CNN
+F 3 "" H 8450 3600 50  0001 C CNN
+	1    8450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Dual JP5
+U 1 1 5A867F28
+P 9200 3500
+F 0 "JP5" H 9250 3400 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 9200 3600 50  0000 C BNN
+F 2 "Connectors:GS3" H 9200 3500 50  0001 C CNN
+F 3 "" H 9200 3500 50  0001 C CNN
+	1    9200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Dual JP6
+U 1 1 5A868009
+P 9950 3600
+F 0 "JP6" H 10000 3500 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 9950 3700 50  0000 C BNN
+F 2 "Connectors:GS3" H 9950 3600 50  0001 C CNN
+F 3 "" H 9950 3600 50  0001 C CNN
+	1    9950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Dual JP3
+U 1 1 5A868BD7
+P 7650 3500
+F 0 "JP3" H 7700 3400 50  0000 L CNN
+F 1 "Jumper_NC_Dual" H 7650 3600 50  0000 C BNN
+F 2 "Connectors:GS3" H 7650 3500 50  0001 C CNN
+F 3 "" H 7650 3500 50  0001 C CNN
+	1    7650 3500
+	1    0    0    -1  
+$EndComp
+Text Label 9300 2400 2    46   ~ 0
+MOSI2
+Text Label 9300 2500 2    46   ~ 0
+MISO2
+Text Label 9300 2600 2    46   ~ 0
+CLK2
+Text Label 9300 2700 2    46   ~ 0
+CS2
+Text Label 10200 3600 0    46   ~ 0
+CS2
+Text Label 9450 3500 0    46   ~ 0
+CLK2
+Text Label 8700 3600 0    46   ~ 0
+MISO2
+Text Label 7900 3500 0    46   ~ 0
+MOSI2
+Text Label 7650 2950 0    46   ~ 0
+SDA1
+Text Label 7650 2500 0    46   ~ 0
+SCL1
+Text Label 7400 3050 3    50   ~ 0
+SDA
+Text Label 7400 2600 3    50   ~ 0
+SCL
+Text Label 7650 3600 3    50   ~ 0
+MOSI
+Text Label 8450 3700 3    50   ~ 0
+MISO
+Text Label 9200 3600 3    50   ~ 0
+CLK
+Text Label 9950 3700 3    50   ~ 0
+CS
+Text Label 7150 2950 2    50   ~ 0
+SDA2
+Text Label 7150 2500 2    50   ~ 0
+SCL2
+Text Label 7400 3500 2    50   ~ 0
+MOSI1
+Text Label 8950 3500 2    50   ~ 0
+CLK1
+Text Label 8200 3600 2    50   ~ 0
+MISO1
+Text Label 9700 3600 2    50   ~ 0
+CS1
 $EndSCHEMATC
