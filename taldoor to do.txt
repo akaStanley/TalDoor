@@ -1,7 +1,4 @@
-++fix  schematic issues
 
-Update BOM
-Pinout, via jumpers, alternate ENC28J60 conn
 
 ============Done:=============1/28/18me
 Power PB with 5v from AG9705 to P1 pin 1
@@ -13,3 +10,7 @@ Drain and source get flipped on q2 (see paper) [Drain to Red LED, Source to 3.3v
 2/11
 Pn532 moved on daughter board
 move m2 screw hole to lign up with holes in housing (one is about 1/2 diamter off)~1mm
+2/16/18
+++fix  schematic issues
+Update BOM
+Pinout, via jumpers, alternate ENC28J60 conn

@@ -8,10 +8,12 @@ TalDoor (or GatekeeperV2) is a small POE door lock system that runs off the Pock
 - Pn532 NFC Module
 - Esimated 500mA consumption of entire device during idle operation. Peak of 800mA during read/write  door motor operations. EST less than 3 WATT max POE requirements.
 
-![Version 1 of the Main Board PCB.](https://github.com/akaStanley/TalDoor/blob/master/Board%20Photos/MainBoard1.PNG)  
-![Version 1 of the NFC Reader PCB.](https://github.com/akaStanley/TalDoor/blob/master/Board%20Photos/External_Reader1B.PNG)  
+![Version 1.1 of the Main Board PCB.](https://github.com/akaStanley/TalDoor/blob/master/Board%20Photos/MainBoard.PNG)  
+![Version 1.1 of the NFC Reader PCB.](https://github.com/akaStanley/TalDoor/blob/master/Board%20Photos/External_Reader.PNG)  
+![Version 1.1.](https://github.com/akaStanley/TalDoor/blob/master/Board%20Photos/BothBoards_angle.PNG)  
 
-![Version 1 of the PCB.](https://github.com/akaStanley/TalDoor/blob/master/Board%20Photos/FAB_BothBoards_v1.PNG)  
+
+![Version 1.1 of the PCB.](https://github.com/akaStanley/TalDoor/blob/master/Board%20Photos/FAB_BothBoards.PNG)  
 
 
 ### Internal Main Board contains:
@@ -27,24 +29,24 @@ TalDoor (or GatekeeperV2) is a small POE door lock system that runs off the Pock
 
 ### Part List for the PCB
 +/- some pin headers we already have
-~31$ in components for one board (+PCB Cost)
+~30$ in components for one board (+PCB Cost)
 
-~61 components specified in BOM (not counting extra male pin headers)
+~62 components specified in BOM (not counting extra male pin headers)
 
 QTY|Value
 ----|------
 1|Buzzer
 9|0.1uF
 2|18pF
-2|10uF
+3|10uF
 1|10000pF
 1|10uF
-1|1000uF
+1|470uF
 3|1uF
 4|G_LED
 4|R_LED
 1|SI-52003-F_RJ45
-1|Screw_Terminal_01x02
+1|Conn_01x02
 2|Conn_01x06_Male
 1|Ferrite_Bead
 1|PocketBeagle
@@ -60,9 +62,10 @@ QTY|Value
 1|DRV8837
 1|ENC28J60-I/SO
 1|PN532
-1|AG9700
-1|CAT3200-5
+1|AG9703
+1|NCP1117-3.3
 1|25MHz
+
 
 
 ## Software:
