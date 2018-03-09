@@ -475,9 +475,9 @@ MISO
 Text Label 2250 3550 0    50   ~ 0
 MOSI
 Text Label 8600 2400 0    50   ~ 0
-SDA1
+SDA2
 Text Label 8600 2500 0    50   ~ 0
-SCL1
+SCL2
 $Comp
 L GND #PWR06
 U 1 1 5A47602A
@@ -1699,9 +1699,9 @@ Wire Wire Line
 Wire Wire Line
 	9350 1700 9300 1700
 Text Label 9300 1700 2    46   ~ 0
-SDA2
+SDA1
 Text Label 9300 1600 2    46   ~ 0
-SCL2
+SCL1
 $Comp
 L Jumper_NC_Dual JP1
 U 1 1 5A867D5F
@@ -1774,9 +1774,9 @@ MISO2
 Text Label 7900 3500 0    46   ~ 0
 MOSI2
 Text Label 7650 2950 0    46   ~ 0
-SDA2
+SDA1
 Text Label 7650 2500 0    46   ~ 0
-SCL2
+SCL1
 Text Label 7400 3050 3    50   ~ 0
 SDA
 Text Label 7400 2600 3    50   ~ 0
@@ -1790,9 +1790,9 @@ CLK
 Text Label 9950 3700 3    50   ~ 0
 CS
 Text Label 7150 2950 2    50   ~ 0
-SDA1
+SDA2
 Text Label 7150 2500 2    50   ~ 0
-SCL1
+SCL2
 Text Label 7400 3500 2    50   ~ 0
 MOSI1
 Text Label 8950 3500 2    50   ~ 0
