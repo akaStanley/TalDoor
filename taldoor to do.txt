@@ -1,6 +1,14 @@
+LED third color?
 
+============Done:=============04/06/18me
+Debug ports:
+GND pinout
+Uart 0 P1-30 P1-32
 
-============Done:=============1/28/18me
+I2c 2 is the working one
+SPI_ is the working one
+Reset to P2-33
+INT# to P1-34
 Power PB with 5v from AG9705 to P1 pin 1
 Redesign power supply for board so that Motor controler and PB are on 5v from AG9705 and the rest (500mA) are on 3.3v regulator
 

@@ -1,4 +1,4 @@
-update=3/9/2018 11:52:59 AM
+update=4/6/2018 4:54:46 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,6 +60,8 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=TalDoor_Parts
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -69,6 +71,4 @@ SubpartFirstId=65
 NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
-LabSize=79
-[general]
-version=1
+LabSize=50
