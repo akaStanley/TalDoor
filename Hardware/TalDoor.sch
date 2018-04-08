@@ -39,8 +39,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TalDoor Schematic"
-Date "2018-03-09"
-Rev "1.1"
+Date "2018-04-08"
+Rev "1.2"
 Comp "Spencer Kulbacki - Computer Science House"
 Comment1 "NFC Door lock hardware with POE support for the Pocket Beagle Devboard"
 Comment2 ""
@@ -1709,4 +1709,8 @@ Wire Wire Line
 Connection ~ 7600 2000
 Text Notes 6950 1650 0    50   ~ 0
 Prog/Debug
+Wire Notes Line
+	8350 1500 8600 1500
+Text Notes 8600 1550 0    50   ~ 0
+x
 $EndSCHEMATC

@@ -39,8 +39,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TalDoor Schematic"
-Date "2018-03-09"
-Rev "1.1"
+Date "2018-04-08"
+Rev "1.2"
 Comp "Spencer Kulbacki - Computer Science House"
 Comment1 "NFC Door lock hardware with POE support for the Pocket Beagle Devboard"
 Comment2 ""
@@ -1099,7 +1099,7 @@ U 1 1 5AC90934
 P 7150 1900
 F 0 "J5" H 7150 2100 50  0000 C CNN
 F 1 "Conn_01x03" H 7150 1700 50  0000 C CNN
-F 2 "" H 7150 1900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 7150 1900 50  0001 C CNN
 F 3 "" H 7150 1900 50  0001 C CNN
 	1    7150 1900
 	-1   0    0    1   
@@ -1584,7 +1584,7 @@ Wire Wire Line
 	2250 4750 2400 4750
 Connection ~ 3900 5350
 Wire Wire Line
-	3900 5350 3900 3950
+	3900 3950 3900 5350
 Wire Wire Line
 	3800 4450 3900 4450
 Connection ~ 3000 5350
