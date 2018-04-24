@@ -1709,4 +1709,8 @@ Wire Wire Line
 Connection ~ 7600 2000
 Text Notes 6950 1650 0    50   ~ 0
 Prog/Debug
+Wire Notes Line
+	8350 1500 8600 1500
+Text Notes 8600 1550 0    50   ~ 0
+x
 $EndSCHEMATC
